@@ -1,0 +1,58 @@
+
+header{
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+  
+}
+.video-container{
+    height: 100vh;
+    z-index: -1;
+}
+
+.switch-btn{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    z-index: 2;
+    height: 35px;
+    width: 100px;
+    background-color: #bdf3e6;
+    border-radius: 10px;
+    color: rgb(247, 96, 96);
+    
+
+}
+img{
+    margin-top: 250px;
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    justify-content: center;
+    z-index: 999;
+    visibility: visible;
+    background-color:#fff;
+}
+.hide-preloader{
+    z-index:-999;
+    visibility: hidden;
+}
+.pause{
+    display: block;
+}
+.ccc .pause{
+    display: none;
+}
+.ccc .play{
+    display:block;
+}
+.play{
+    display: none;
+}

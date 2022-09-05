@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    color: #000000; 
+    background-color: #385565;
+    padding: 10%;
+    
+}
+h1{
+    color: #ed8acc;
+    font-size: 1.7rem;
+}
+.flex{
+    padding: 10px;
+    width:400px;
+    margin-left: 35%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 2px  #8fbfbd8e;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+}
+.btn-random{
+    margin-top: 10px;
+}
+.btn{
+    font-size: 1.2rem;
+    height: 45px;
+    width: 85px;
+    margin-left: 2px;
+    background-color: #385565;
+    color: #ffffff;
+    
+}
